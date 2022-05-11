@@ -1,0 +1,194 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fmodern\fcharset0 Courier;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red53\green53\blue53;\red220\green161\blue13;}
+{\*\expandedcolortbl;;\cssrgb\c27059\c27059\c27059;\cssrgb\c89412\c68627\c3922;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid1\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid101\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\partightenfactor0
+
+\f0\b\fs34 \cf2 \'93Ice Cream Calculator\'94 cannot be opened because the developer cannot be verified / it is from an unidentified developer.\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\b0\fs24 \cf2 \
+Please see {\field{\*\fldinst{HYPERLINK "https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac"}}{\fldrslt \cf3 this Apple Support article}} on how to open apps from unidentified developers.\
+
+\b\fs34 \
+\pard\pardeftab560\partightenfactor0
+\cf2 \'93Ice Cream Calculator\'94 is damaged and can\'92t be opened. You should move it to the Trash.
+\fs36 \
+\pard\pardeftab560\partightenfactor0
+
+\b0\fs24 \cf2 \
+This is a false positive. This is usually due to a quarantine flag placed on the app. First, move the app to the trash. Then there are two ways to solve this problem. 
+\b\fs28 \
+\pard\pardeftab560\sa40\partightenfactor0
+\cf2 \
+Using an app\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\b0\fs24 \cf2 Download xattred here: {\field{\*\fldinst{HYPERLINK "https://eclecticlight.co/xattred-sandstrip-xattr-tools/"}}{\fldrslt \cf3 https://eclecticlight.co/xattred-sandstrip-xattr-tools/}}\
+In xattred, open
+\f1  Ice Cream Calculator.app.tz
+\f0 .
+\f1  
+\f0 You should see
+\f1  com.apple.quarantine 
+\f0 show up. Click this, then click \'93Strip flag\'94. \
+Reopen the
+\f1  .tgz 
+\f0 file, then open
+\f1  Ice Cream Calculator.app 
+\f0 again.\
+\pard\pardeftab560\sa40\partightenfactor0
+
+\b\fs28 \cf2 \
+Using Terminal \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\b0\fs24 \cf2 This method is not recommended unless you are familiar with the command line.\
+\
+Open terminal and enter
+\f1  xattr -l /path/to/.tgz\
+
+\f0 With
+\f1  /path/to/.tgz 
+\f0 being the file path to the ICC archive.\
+If you see
+\f1  com.apple.quarantine 
+\f0 , enter this command:
+\f1  xattr -d com.apple.quarantine /path/to/.tgz
+\f0 \
+Enter
+\f1  xattr -l /path/to/.tgz 
+\f0 , it should be blank.\
+Uncompress the archive and re-open the new app.\
+
+\b\fs34 \
+\pard\pardeftab560\partightenfactor0
+\cf2 My anti-virus detects the app as malware\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\b0\fs24 \cf2 \
+This is a false positive. For a more detailed explanation, see {\field{\*\fldinst{HYPERLINK "https://www.codeweavers.com/support/forums/general/?t=27;msg=222870"}}{\fldrslt \cf3 this post from CodeWeavers.\
+}}To fix this issue, please temporarily disable your anti-virus or exclude the app files in your anti-virus program. \
+
+\b\fs34 \
+How do I find my application data?\
+
+\b0\fs24 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1 \cf2 drive_c > ProgramData > Ice Cream Calculator\
+drive_c > users > Wineskin\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b\fs34 \cf2 \
+\pard\pardeftab560\partightenfactor0
+\cf2 Saved files aren\'92t where I expected them to be\
+\pard\pardeftab560\partightenfactor0
+
+\b0\fs24 \cf2 \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf2 As part of running windows programs, Wine mimics a windows computer by creating a virtual file system inside the app. For example, when saving a file to your desktop, Wine will save the file to its folder named
+\f1  Desktop 
+\f0 instead. To find these folders, right click on the app and
+\f1  Show Package Contents 
+\f0 , then go to
+\f1  drive_c > users > Wineskin. 
+\f0 If you instead would like Wine to link its virtual folders to your actual computer folders, open
+\f1  Wineskin.app 
+\f0 , press
+\f1  Advanced 
+\f0 , go to
+\f1  Options 
+\f0 and select
+\f1  Map User Mac OS X folders in wrapper 
+\f0 .\
+
+\b\fs34 \
+\pard\pardeftab560\partightenfactor0
+\cf2 Unhandled exception has occurred in your application.\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\b0\fs24 \cf2 \
+Most of the time, this means you tried to use a feature which isn\'92t compatible with mono yet. These errors tend to be relatively minor, and you can usually continue without problems.\
+
+\b\fs34 \
+\pard\pardeftab560\partightenfactor0
+\cf2 I have a problem that isn\'92t listed\
+\pard\pardeftab560\slleading20\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac"}}{\fldrslt 
+\b0\fs24 \cf3 \
+}}
+\b0\fs24 If this is a problem with the application, please save program logs first.\
+Locate the app and
+\f1  Show Package Contents\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f2\fs20 \cf2 {\listtext	\uc0\u9642 	}
+\f0\fs24 Open
+\f1  Wineskin.app\
+\ls1\ilvl0
+\f2\fs20 {\listtext	\uc0\u9642 	}
+\f0\fs24 Click
+\f1  Advanced 
+\f0 , then
+\f1  Test Run\
+\ls1\ilvl0
+\f2\fs20 {\listtext	\uc0\u9642 	}
+\f0\fs24 Try and recreate the issue, then close the app (if it hasn\'92t already closed or crashed)\
+\ls1\ilvl0
+\f2\fs20 {\listtext	\uc0\u9642 	}
+\f0\fs24 View and save a copy of the test run logs \
+\pard\tx720\pardeftab560\pardirnatural\partightenfactor0
+
+\b\fs34 \cf2 \
+\pard\pardeftab560\partightenfactor0
+\cf2 Known Issues:\uc0\u8232 
+\b0\fs24 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl0
+\f2\fs20 \cf2 {\listtext	\uc0\u9642 	}
+\f0\fs24 Trying to modify ingredients/allergens crashes the app instantly\
+\ls2\ilvl0
+\f2\fs20 {\listtext	\uc0\u9642 	}
+\f0\fs24 Slight delay in window loading/typing\
+\ls2\ilvl0
+\f2\fs20 {\listtext	\uc0\u9642 	}
+\f0\fs24 Graph name is upside-down\
+\ls2\ilvl0
+\f2\fs20 {\listtext	\uc0\u9642 	}
+\f0\fs24 Built in calculator does not work\
+\ls2\ilvl0
+\f2\fs20 {\listtext	\uc0\u9642 	}
+\f0\fs24 Buttons on the add ingredients window are cut off\
+\ls2\ilvl0
+\f2\fs20 {\listtext	\uc0\u9642 	}
+\f0\fs24 Notes function does not work\
+\ls2\ilvl0
+\f2\fs20 {\listtext	\uc0\u9642 	}
+\f0\fs24 Tools > Excel does not work\
+\pard\tx720\pardeftab560\pardirnatural\partightenfactor0
+
+\b\fs34 \cf2 \
+\pard\pardeftab560\partightenfactor0
+\cf2 Installing and using your own copy of wine\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\b0\fs24 \cf2 This is quite complicated and not recommended for people who aren\'92t comfortable with the command line. If you do decide to attempt this, use one of these links, as the current supplied versions of Wine for Mac are out of date.\
+\pard\pardeftab560\slleading20\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://github.com/Gcenx/homebrew-wine"}}{\fldrslt \cf3 https://github.com/Gcenx/homebrew-wine}}\
+\pard\pardeftab560\slleading20\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://github.com/Gcenx/macports-wine"}}{\fldrslt \cf3 https://github.com/Gcenx/macports-wine}}\
+\pard\pardeftab560\slleading20\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://github.com/Gcenx/macOS_Wine_builds"}}{\fldrslt \cf3 https://github.com/Gcenx/macOS_Wine_builds}}\cf3 \
+\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf2 As of May 2022, Ice Cream Calculator does not work with native .NET via wineskin. Use Mono instead.\
+More detailed instructions soon.\
+}
