@@ -3,34 +3,34 @@ WINE REGISTRY Version 2
 
 #arch=win64
 
-[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1652099009
-#time=1d8639f972ca9c4
+[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1654478319
+#time=1d879435a6fdd30
 @=""
 
-[Control Panel\\Accessibility\\AudioDescription] 1652098993
-#time=1d8639f8da7c3d4
+[Control Panel\\Accessibility\\AudioDescription] 1654478305
+#time=1d8794351f75778
 "Locale"=dword:00000000
 "On"="0"
 
-[Control Panel\\Accessibility\\Blind Access] 1652098993
-#time=1d8639f8da7ac96
+[Control Panel\\Accessibility\\Blind Access] 1654478305
+#time=1d8794351f73ef0
 "On"="0"
 
-[Control Panel\\Accessibility\\Keyboard Preference] 1652098993
-#time=1d8639f8da78afe
+[Control Panel\\Accessibility\\Keyboard Preference] 1654478305
+#time=1d8794351f71844
 "On"="1"
 
-[Control Panel\\Accessibility\\ShowSounds] 1652098993
-#time=1d8639f8da7b36c
+[Control Panel\\Accessibility\\ShowSounds] 1654478305
+#time=1d8794351f7460c
 "On"="0"
 
-[Control Panel\\Colors] 1652098996
-#time=1d8639f8f7b5496
+[Control Panel\\Colors] 1654478307
+#time=1d87943535a535e
 
  
 
-[Control Panel\\Desktop\\WindowMetrics] 1652098993
-#time=1d8639f8da7b74a
+[Control Panel\\Desktop\\WindowMetrics] 1654478305
+#time=1d8794351f74a8a
 "BorderWidth"="-15"
 "CaptionHeight"="-270"
 "CaptionWidth"="-270"
@@ -45,8 +45,8 @@ WINE REGISTRY Version 2
 "SmCaptionHeight"="-225"
 "SmCaptionWidth"="-225"
 
-[Control Panel\\International] 1652098988
-#time=1d8639f8af62586
+[Control Panel\\International] 1654478301
+#time=1d879434fb08f8e
 "iCalendarType"="1"
 "iCountry"="1"
 "iCurrDigits"="2"
@@ -89,17 +89,17 @@ WINE REGISTRY Version 2
 "sTimeFormat"="h:mm:ss tt"
 "sYearMonth"="MMMM, yyyy"
 
-[Control Panel\\International\\Geo] 1652098988
-#time=1d8639f8af4e838
+[Control Panel\\International\\Geo] 1654478301
+#time=1d879434faf5146
 "Nation"="244"
 
-[Control Panel\\Keyboard] 1652098993
-#time=1d8639f8da78cf2
+[Control Panel\\Keyboard] 1654478305
+#time=1d8794351f71a42
 "KeyboardDelay"="1"
 "KeyboardSpeed"="31"
 
-[Control Panel\\Mouse] 1652098993
-#time=1d8639f8da7b934
+[Control Panel\\Mouse] 1654478305
+#time=1d8794351f74c92
 "ActiveWindowTracking"=dword:00000000
 "DoubleClickHeight"="4"
 "DoubleClickSpeed"="500"
@@ -114,25 +114,25 @@ WINE REGISTRY Version 2
 "SnapToDefaultButton"="0"
 "SwapMouseButtons"="0"
 
-[Control Panel\\Sound] 1652098993
-#time=1d8639f8da6cc0e
+[Control Panel\\Sound] 1654478305
+#time=1d8794351f62524
 "Beep"="Yes"
 
-[Environment] 1652099005
-#time=1d8639f94f0747e
+[Environment] 1654478316
+#time=1d879435873fa16
 "TEMP"="C:\\users\\christinel18\\Temp"
 "TMP"="C:\\users\\christinel18\\Temp"
 
-[Software\\Microsoft\\Installer\\Features\\A10294A1553B2F85E8337DCF946DD344] 1652099362
-#time=1d863a069501f3a
+[Software\\Microsoft\\Installer\\Features\\A10294A1553B2F85E8337DCF946DD344] 1654478481
+#time=1d87943bb35cfee
 "wine_mono"=""
 
-[Software\\Microsoft\\Installer\\Features\\F2250418C276C635497ED0AB939E1DD6] 1652099362
-#time=1d863a0695317b2
+[Software\\Microsoft\\Installer\\Features\\F2250418C276C635497ED0AB939E1DD6] 1654478481
+#time=1d87943bb39b6ea
 "wine_mono"=""
 
-[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344] 1652099362
-#time=1d863a06950782c
+[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344] 1654478481
+#time=1d87943bb361d50
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -143,23 +143,23 @@ WINE REGISTRY Version 2
 "ProductName"="Wine Mono Windows Support"
 "Version"=dword:07020000
 
-[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344\\SourceList] 1652099362
-#time=1d863a069509bcc
+[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344\\SourceList] 1654478481
+#time=1d87943bb3648a2
 "LastUsedSource"="n;1;C:\\windows\\mono\\mono-2.0\\support\\"
 "PackageName"="winemono-support.msi"
 
-[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344\\SourceList\\Media] 1652099362
-#time=1d863a069509f64
+[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344\\SourceList\\Media] 1654478481
+#time=1d87943bb364d2a
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344\\SourceList\\Net] 1652099362
-#time=1d863a06950901e
+[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344\\SourceList\\Net] 1654478481
+#time=1d87943bb363682
 "1"=str(2):"C:\\windows\\mono\\mono-2.0\\support\\"
 
-[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6] 1652099362
-#time=1d863a06953bb36
+[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6] 1654478481
+#time=1d87943bb3a0a1e
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -170,46 +170,46 @@ WINE REGISTRY Version 2
 "ProductName"="Wine Mono Runtime"
 "Version"=dword:07020000
 
-[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6\\SourceList] 1652099362
-#time=1d863a06953f240
+[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6\\SourceList] 1654478481
+#time=1d87943bb3a3aca
 "LastUsedSource"="n;1;\\\\?\\Z:\\Users\\christinel18\\.cache\\wine\\"
 "PackageName"="wine-mono-7.2.0-x86.msi"
 
-[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6\\SourceList\\Media] 1652099362
-#time=1d863a06953f858
+[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6\\SourceList\\Media] 1654478481
+#time=1d87943bb3a3f20
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6\\SourceList\\Net] 1652099362
-#time=1d863a06953dc10
+[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6\\SourceList\\Net] 1654478481
+#time=1d87943bb3a2cce
 "1"=str(2):"\\\\?\\Z:\\Users\\christinel18\\.cache\\wine\\"
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\2CC501FD2AF876341B3D596CC39014CF] 1652099362
-#time=1d863a069534188
+[Software\\Microsoft\\Installer\\UpgradeCodes\\2CC501FD2AF876341B3D596CC39014CF] 1654478481
+#time=1d87943bb39e9f8
 "F2250418C276C635497ED0AB939E1DD6"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\906426ED5B6CA6842947FEB058F4B65C] 1652099362
-#time=1d863a0695067ce
+[Software\\Microsoft\\Installer\\UpgradeCodes\\906426ED5B6CA6842947FEB058F4B65C] 1654478481
+#time=1d87943bb360c48
 "A10294A1553B2F85E8337DCF946DD344"=""
 
-[Software\\Microsoft\\Internet Explorer\\Main] 1652099009
-#time=1d8639f97248e4c
+[Software\\Microsoft\\Internet Explorer\\Main] 1654478319
+#time=1d879435a67548a
 "Search Page"="https://www.google.com"
 "Start Page"="https://www.winehq.org"
 
-[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1652099004
-#time=1d8639f94487fb2
+[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1654478315
+#time=1d8794357ed84f4
 
-[Software\\Microsoft\\Internet Explorer\\Settings] 1652099009
-#time=1d8639f972490ae
+[Software\\Microsoft\\Internet Explorer\\Settings] 1654478319
+#time=1d879435a675750
 "Text Color"="0,0,0"
 
-[Software\\Microsoft\\Protected Storage System Provider] 1652099009
-#time=1d8639f972cab0e
+[Software\\Microsoft\\Protected Storage System Provider] 1654478319
+#time=1d879435a6fde84
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1652099005
-#time=1d8639f94ef3cd0
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1654478316
+#time=1d879435872be8a
 "Administrative Tools"="C:\\users\\christinel18\\Start Menu\\Programs\\Administrative Tools"
 "AppData"="C:\\users\\christinel18\\Application Data"
 "Cache"="C:\\users\\christinel18\\Local Settings\\Temporary Internet Files"
@@ -238,8 +238,8 @@ WINE REGISTRY Version 2
 "{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\christinel18\\AppData\\LocalLow"
 "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\christinel18\\Links"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1652099005
-#time=1d8639f94ef3988
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1654478316
+#time=1d879435872bae8
 "Administrative Tools"=str(2):"%USERPROFILE%\\Start Menu\\Programs\\Administrative Tools"
 "AppData"=str(2):"%USERPROFILE%\\Application Data"
 "Cache"=str(2):"%USERPROFILE%\\Local Settings\\Temporary Internet Files"
@@ -268,23 +268,23 @@ WINE REGISTRY Version 2
 "{A520A1A4-1780-4FF6-BD18-167343C5AF16}"=str(2):"%USERPROFILE%\\AppData\\LocalLow"
 "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"=str(2):"%USERPROFILE%\\Links"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1652099006
-#time=1d8639f956c6a98
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1654478316
+#time=1d8794358c72344
 "User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1652099006
-#time=1d8639f956c64b2
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1654478316
+#time=1d8794358c71eee
 @=""
 "IntranetName"=dword:00000001
 "ProxyByPass"=dword:00000001
 "UNCAsIntranet"=dword:00000001
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1652099006
-#time=1d8639f956c5fee
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1654478316
+#time=1d8794358c71a84
 @=""
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1652099006
-#time=1d8639f956c5a1c
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1654478316
+#time=1d8794358c715ac
 @=""
 "@ivt"=dword:00000001
 "file"=dword:00000003
@@ -292,16 +292,16 @@ WINE REGISTRY Version 2
 "http"=dword:00000003
 "https"=dword:00000003
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1652099006
-#time=1d8639f956c65b6
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1654478316
+#time=1d8794358c71fc0
 @=""
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1652099006
-#time=1d8639f9570a07c
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1654478316
+#time=1d8794358cb5a4a
 @=""
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1652099006
-#time=1d8639f956d625e
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1654478316
+#time=1d8794358c84378
 @=""
 "1001"=dword:00000000
 "1004"=dword:00000000
@@ -339,8 +339,8 @@ WINE REGISTRY Version 2
 "Flags"=dword:00000021
 "Icon"="explorer.exe#0100"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1652099006
-#time=1d8639f956eb0c8
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1654478316
+#time=1d8794358c9796e
 @=""
 "1001"=dword:00000001
 "1004"=dword:00000003
@@ -380,8 +380,8 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00010000
 "RecommendedLevel"=dword:00010500
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1652099006
-#time=1d8639f956fe18c
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1654478316
+#time=1d8794358ca8728
 @=""
 "1001"=dword:00000000
 "1004"=dword:00000001
@@ -421,8 +421,8 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00010000
 "RecommendedLevel"=dword:00010000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1652099006
-#time=1d8639f95709cb2
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1654478316
+#time=1d8794358cb5568
 @=""
 "1001"=dword:00000001
 "1004"=dword:00000003
@@ -462,8 +462,8 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00011000
 "RecommendedLevel"=dword:00011000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1652099006
-#time=1d8639f95715d6e
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1654478316
+#time=1d8794358cc23a8
 @=""
 "1001"=dword:00000003
 "1004"=dword:00000003
@@ -503,23 +503,23 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00012000
 "RecommendedLevel"=dword:00012000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1652099009
-#time=1d8639f972a9aee
+[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1654478319
+#time=1d879435a6d9cc8
 
-[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\ftp\\UserChoice] 1652099009
-#time=1d8639f972ce0c4
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\ftp\\UserChoice] 1654478319
+#time=1d879435a702c04
 "ProgId"="ftp"
 
-[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice] 1652099009
-#time=1d8639f972ceaec
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice] 1654478319
+#time=1d879435a70373a
 "ProgId"="http"
 
-[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\https\\UserChoice] 1652099009
-#time=1d8639f972cf4f6
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\https\\UserChoice] 1654478319
+#time=1d879435a704324
 "ProgId"="https"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Devices] 1652099006
-#time=1d8639f954d7eb2
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Devices] 1654478316
+#time=1d8794358a69606
 "Brother_HL_2040_series"="wineps.drv,CUPS:Brother_HL_2040_series"
 "Canon_SELPHY_CP1200"="wineps.drv,CUPS:Canon_SELPHY_CP1200"
 "ecprinter"="wineps.drv,CUPS:ecprinter"
@@ -528,8 +528,8 @@ WINE REGISTRY Version 2
 "Samsung_M288x_Series_SEC30CDA7A88634_"="wineps.drv,CUPS:Samsung_M288x_Series_SEC30CDA7A88634_"
 "upstairs"="wineps.drv,CUPS:upstairs"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\PrinterPorts] 1652099006
-#time=1d8639f954d8402
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\PrinterPorts] 1654478316
+#time=1d8794358a6987c
 "Brother_HL_2040_series"="wineps.drv,CUPS:Brother_HL_2040_series,15,45"
 "Canon_SELPHY_CP1200"="wineps.drv,CUPS:Canon_SELPHY_CP1200,15,45"
 "ecprinter"="wineps.drv,CUPS:ecprinter,15,45"
@@ -538,41 +538,37 @@ WINE REGISTRY Version 2
 "Samsung_M288x_Series_SEC30CDA7A88634_"="wineps.drv,CUPS:Samsung_M288x_Series_SEC30CDA7A88634_,15,45"
 "upstairs"="wineps.drv,CUPS:upstairs,15,45"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows] 1652099006
-#time=1d8639f954851da
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows] 1654478316
+#time=1d87943589fcbc8
 "device"="Samsung_M288x_Series__SEC30CDA7A88634__2,wineps.drv,CUPS:Samsung_M288x_Series__SEC30CDA7A88634__2"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1652099009
-#time=1d8639f972a9c6a
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1654478319
+#time=1d879435a6d9eb2
 
-[Software\\Wine\\AppDefaults] 1652099010
-#time=1d8639f9797a210
+[Software\\Wine\\AppDefaults] 1654478319
+#time=1d879435abcfb24
 
-[Software\\Wine\\Debug] 1652099009
-#time=1d8639f972b7d1a
+[Software\\Wine\\Debug] 1654478319
+#time=1d879435a6e8624
 "RelayExclude"="ntdll.RtlEnterCriticalSection;ntdll.RtlTryEnterCriticalSection;ntdll.RtlLeaveCriticalSection;kernel32.48;kernel32.49;kernel32.94;kernel32.95;kernel32.96;kernel32.97;kernel32.98;kernel32.TlsGetValue;kernel32.TlsSetValue;kernel32.FlsGetValue;kernel32.FlsSetValue;kernel32.SetLastError"
 "RelayFromExclude"="winex11.drv;winemac.drv;user32;gdi32;advapi32;kernel32"
 
-[Software\\Wine\\Direct3D] 1652099046
-#time=1d8639fad425f2e
+[Software\\Wine\\Direct3D] 1654478350
+#time=1d879436cbfbe06
 
-[Software\\Wine\\DllOverrides] 1652099046
-#time=1d8639fad42619a
+[Software\\Wine\\DllOverrides] 1654478350
+#time=1d879436cbfc00e
 
-[Software\\Wine\\Drivers] 1652099313
-#time=1d863a04c6ee608
-"Graphics"="mac,x11"
+[Software\\Wine\\Explorer\\Desktops] 1654478437
+#time=1d87943a1089dfe
 
-[Software\\Wine\\Explorer\\Desktops] 1652099313
-#time=1d863a04c6ee608
-
-[Software\\Wine\\Fonts] 1652099318
-#time=1d863a04f62c9f6
+[Software\\Wine\\Fonts] 1654478440
+#time=1d87943a28cb278
 "Codepages"="1252,437"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1652099318
-#time=1d863a04f6ea4f6
+[Software\\Wine\\Fonts\\External Fonts] 1654478440
+#time=1d87943a2973be4
 "@AdobeFangsongStd-Regular (TrueType)"="Z:\\Library\\Fonts\\AdobeFangsongStd-Regular.otf"
 "@AdobeFanHeitiStd-Bold (TrueType)"="Z:\\Library\\Fonts\\AdobeFanHeitiStd-Bold.otf"
 "@AdobeGothicStd-Bold (TrueType)"="Z:\\Library\\Fonts\\AdobeGothicStd-Bold.otf"
@@ -763,9 +759,6 @@ WINE REGISTRY Version 2
 "@Yuppy SC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font4\\4f6414db403d33f6df5deef5eef6f91d0d57ecfc.asset\\AssetData\\YuppySC-Regular.otf"
 "@Yuppy TC Regular (TrueType)"="Z:\\System\\Library\\Assets\\com_apple_MobileAsset_Font4\\3b4f5b00faf2d7fa028eed01f8c3d611f63bfeaa.asset\\AssetData\\YuppyTC-Regular.otf"
 "a Anti Corona (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\aAntiCorona.otf"
-"A.C.M.E. Secret Agent (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\A.C.M.E. Secret Agent Regular-6efa.otf"
-"A.C.M.E. Secret Agent Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\A.C.M.E. Secret Agent Bold-7591.otf"
-"A.C.M.E. Secret Agent Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\A.C.M.E. Secret Agent Italic-6f4c.otf"
 "a_DomIno (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\a_Domino.TTF"
 "a_DomIno Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\a_Domino_i.TTF"
 "Absolute Neon Script (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AbsoluteNeonScript.ttf"
@@ -833,9 +826,6 @@ WINE REGISTRY Version 2
 "American Typewriter Light (TrueType)"="Z:\\Library\\Fonts\\AmericanTypewriter.ttc"
 "American Typewriter Semibold (TrueType)"="Z:\\Library\\Fonts\\AmericanTypewriter.ttc"
 "Andale Mono (TrueType)"="Z:\\Library\\Fonts\\Andale Mono.ttf"
-"AnimeAce2.0BB (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Anime Ace 2.0 BB Regular-a9e9.otf"
-"AnimeAce2.0BB-Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Anime Ace 2.0 BB Bold-080d.otf"
-"AnimeAce2.0BB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Anime Ace 2.0 BB Italic-2b1e.otf"
 "AnimeAce3BB-Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AnimeAce3BB_Bold.otf"
 "AnimeAce3BB-BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AnimeAce3BB_BoldItalic.otf"
 "AnimeAce3BB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AnimeAce3BB_Italic.otf"
@@ -871,21 +861,21 @@ WINE REGISTRY Version 2
 "Arial Unicode MS (TrueType)"="Z:\\Library\\Fonts\\Arial Unicode.ttf"
 "AstounderSquaredBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AstounderSquaredBB.otf"
 "AstounderSquaredBB-Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AstounderSquaredBB-Bold.otf"
-"AstounderSquaredBB-BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.34214.otf"
+"AstounderSquaredBB-BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AstounderSquaredBB-BoldItalic.otf"
 "AstounderSquaredBB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AstounderSquaredBB-Italic.otf"
 "AstounderSquaredLCBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.34217.otf"
-"AstounderSquaredLCBB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.34216.otf"
+"AstounderSquaredLCBB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AstounderSquaredLCBB-Italic.otf"
 "Athens (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Athens.ttf"
-"Attribute Mono (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39115.otf"
+"Attribute Mono (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono.otf"
 "Attribute Mono Black (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-Black.otf"
-"Attribute Mono Black Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39105.otf"
-"Attribute Mono Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39106.otf"
+"Attribute Mono Black Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-BlackItalic.otf"
+"Attribute Mono Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-Bold.otf"
 "Attribute Mono Bold Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39107.otf"
-"Attribute Mono Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39110.otf"
-"Attribute Mono Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39111.otf"
-"Attribute Mono Light Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39112.otf"
+"Attribute Mono Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-Italic.otf"
+"Attribute Mono Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-Light.otf"
+"Attribute Mono Light Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-LightItalic.otf"
 "Attribute Mono Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39113.otf"
-"Attribute Mono Medium Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39114.otf"
+"Attribute Mono Medium Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-MediumItalic.otf"
 "Attribute Mono Thin (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-Thin.otf"
 "Attribute Mono Thin Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-ThinItalic.otf"
 "Attribute Mono Xlight (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AttributeMono-Xlight.otf"
@@ -895,7 +885,7 @@ WINE REGISTRY Version 2
 "Auger Mono Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AugerMono-Light.otf"
 "Auger Mono Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.48555.otf"
 "Auger Mono Regular (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AugerMono-Regular.otf"
-"Auger Mono X-Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.48557.otf"
+"Auger Mono X-Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\AugerMono-X-Light.otf"
 "augie (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\augie.ttf"
 "Avenir Black (TrueType)"="Z:\\System\\Library\\Fonts\\Avenir.ttc"
 "Avenir Black Oblique (TrueType)"="Z:\\System\\Library\\Fonts\\Avenir.ttc"
@@ -942,8 +932,7 @@ WINE REGISTRY Version 2
 "BabyDoll (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BabyDoll.ttf"
 "Bad Habits (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Bad Habits - Demo.ttf"
 "Bad Racer (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Bad Racer.ttf"
-"BadaBoom BB (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\BadaBoom BB Regular-8076.otf"
-"BadaBoomProBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7045.otf"
+"BadaBoomProBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BadaBoomProBB.otf"
 "BadaBoomProBB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7046.otf"
 "Badonk-a-donk (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\badankadonk.ttf"
 "Baghdad Regular (TrueType)"="Z:\\Library\\Fonts\\Baghdad.ttc"
@@ -971,7 +960,7 @@ WINE REGISTRY Version 2
 "Best Choice Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BestChoice-Bold.otf"
 "Best Choice Bold Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BestChoice-BoldItalic.otf"
 "Best Choice Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BestChoice-Italic.otf"
-"Best Choice Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.47369.otf"
+"Best Choice Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BestChoice-Medium.otf"
 "Best Choice Medium Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BestChoice-MediumItalic.otf"
 "Best Choice Regular (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BestChoice-Regular.otf"
 "BetinaScriptCTT Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BetinaScriptC_b.TTF"
@@ -983,17 +972,14 @@ WINE REGISTRY Version 2
 "BlackoakStd (TrueType)"="Z:\\Library\\Fonts\\BlackoakStd.otf"
 "BlamBlamBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\blamblam_reg.otf"
 "BlamBlamHeavyBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\blamblambb_hvy.otf"
-"Blambot Casual  Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Blambot Casual  Bold-0f0b.otf"
-"Blambot Casual  BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Blambot Casual  BoldItalic-04a2.otf"
-"Blambot Casual  Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Blambot Casual  Italic-994d.otf"
 "BlambotCasual (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7047.otf"
 "BlambotCasual-Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7049.otf"
 "BlambotCasual-BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7050.otf"
 "BlambotCasual-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7048.otf"
-"BlambotFXProHeavyBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7053.otf"
-"BlambotFXProHeavyBB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7054.otf"
-"BlambotFXProLightBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7051.otf"
-"BlambotFXProLightBB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7052.otf"
+"BlambotFXProHeavyBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BlambotFXProHeavyBB.otf"
+"BlambotFXProHeavyBB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BlambotFXProHeavyBB-Italic.otf"
+"BlambotFXProLightBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BlambotFXProLightBB.otf"
+"BlambotFXProLightBB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\BlambotFXProLightBB-Italic.otf"
 "BlowBrush (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\blowbrush.otf"
 "Bodoni 72 Bold (TrueType)"="Z:\\Library\\Fonts\\Bodoni 72.ttc"
 "Bodoni 72 Book (TrueType)"="Z:\\Library\\Fonts\\Bodoni 72.ttc"
@@ -1050,16 +1036,16 @@ WINE REGISTRY Version 2
 "CC Astro City Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CC Astro City Italic.ttf"
 "CC Splashdown Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CC Splashdown Medium.ttf"
 "CCBiffBamBoom (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35755.otf"
-"CCBiffBamBoomOutline (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35756.otf"
+"CCBiffBamBoomOutline (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCBiffBamBoomOutline.otf"
 "CCMeanwhile (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35759.otf"
-"CCMeanwhile Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35762.otf"
+"CCMeanwhile Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCMeanwhile-Bold.otf"
 "CCMeanwhile Bold Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35761.otf"
 "CCMeanwhile Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35760.otf"
 "CCMonsterMash (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35763.otf"
-"CCMonsterMashOutline (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35764.otf"
+"CCMonsterMashOutline (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCMonsterMashOutline.otf"
 "CCMonsterMashWorn (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCMonsterMashWorn.otf"
-"CCSignLanguage-Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35768.otf"
-"CCSignLanguage-BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35769.otf"
+"CCSignLanguage-Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCSignLanguage-Bold.otf"
+"CCSignLanguage-BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCSignLanguage-BoldItalic.otf"
 "CCSignLanguage-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCSignLanguage-Italic.otf"
 "CCSignLanguage-Regular (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCSignLanguage-Regular.otf"
 "CCSignLanguageScreamers (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCSignLanguageScreamers.otf"
@@ -1075,8 +1061,8 @@ WINE REGISTRY Version 2
 "Chantal-BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Chantal-BoldItalic.otf"
 "Chantal-Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Chantal-Light.otf"
 "Chantal-LightItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Chantal-LightItalic.otf"
-"Chantal-Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.27955.otf"
-"Chantal-MediumItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.28012.otf"
+"Chantal-Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Chantal-Medium.otf"
+"Chantal-MediumItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Chantal-MediumItalic.otf"
 "ChaparralPro-Bold (TrueType)"="Z:\\Library\\Fonts\\ChaparralPro-Bold.otf"
 "ChaparralPro-BoldIt (TrueType)"="Z:\\Library\\Fonts\\ChaparralPro-BoldIt.otf"
 "ChaparralPro-Italic (TrueType)"="Z:\\Library\\Fonts\\ChaparralPro-Italic.otf"
@@ -1099,7 +1085,7 @@ WINE REGISTRY Version 2
 "Cochin Bold Italic (TrueType)"="Z:\\Library\\Fonts\\Cochin.ttc"
 "Cochin Italic (TrueType)"="Z:\\Library\\Fonts\\Cochin.ttc"
 "Code Saver Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CodeSaver-Bold.otf"
-"Code Saver Bold Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.42227.otf"
+"Code Saver Bold Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CodeSaver-BoldItalic.otf"
 "Code Saver Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CodeSaver-Italic.otf"
 "Code Saver Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CodeSaver-Medium.otf"
 "Code Saver Medium Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.42225.otf"
@@ -1187,7 +1173,6 @@ WINE REGISTRY Version 2
 "Dudeludel  (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Dudeludel.ttf"
 "DuntonWriting (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\DuntonWriting.ttf"
 "Edo (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\edo.ttf"
-"Effra Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.9787.otf"
 "Elbrush (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Elbrush.ttf"
 "Espa (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\espa.otf"
 "Euphemia UCAS (TrueType)"="Z:\\Library\\Fonts\\EuphemiaCAS.ttc"
@@ -1199,10 +1184,8 @@ WINE REGISTRY Version 2
 "Festus (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Festus.ttf"
 "FighttotheFinishBB (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.34219.otf"
 "FighttotheFinishBB-Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.34221.otf"
-"FighttotheFinishBB-BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.34220.otf"
+"FighttotheFinishBB-BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\FighttotheFinishBB-BoldItalic.otf"
 "FighttotheFinishBB-Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.34218.otf"
-"FilsonProBold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.24561.otf"
-"FilsonProHeavy (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.24565.otf"
 "FingerPaint Regular (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\FingerPaint-Regular.otf"
 "FishesFriends (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Fishes_Friends.otf"
 "FishesFriends-Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Fishes_Friends_Bold.otf"
@@ -1369,7 +1352,7 @@ WINE REGISTRY Version 2
 "InputMono Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMono-Bold.otf"
 "InputMono BoldIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMono-BoldItalic.otf"
 "InputMono ExLight (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMono-ExtraLight.otf"
-"InputMono ExLightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30492.otf"
+"InputMono ExLightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMono-ExtraLightItalic.otf"
 "InputMono Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMono-Italic.otf"
 "InputMono Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30495.otf"
 "InputMono LightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMono-LightItalic.otf"
@@ -1383,7 +1366,7 @@ WINE REGISTRY Version 2
 "InputMonoCompressed Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCompressed-Bold.otf"
 "InputMonoCompressed BoldIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30515.otf"
 "InputMonoCompressed ExLight (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCompressed-ExtraLight.otf"
-"InputMonoCompressed ExLightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30506.otf"
+"InputMonoCompressed ExLightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCompressed-ExtraLightItalic.otf"
 "InputMonoCompressed Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCompressed-Italic.otf"
 "InputMonoCompressed Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCompressed-Light.otf"
 "InputMonoCompressed LightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCompressed-LightItalic.otf"
@@ -1395,27 +1378,27 @@ WINE REGISTRY Version 2
 "InputMonoCondensed Black (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30530.otf"
 "InputMonoCondensed BlackIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-BlackItalic.otf"
 "InputMonoCondensed Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-Bold.otf"
-"InputMonoCondensed BoldIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30529.otf"
+"InputMonoCondensed BoldIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-BoldItalic.otf"
 "InputMonoCondensed ExLight (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-ExtraLight.otf"
 "InputMonoCondensed ExLightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-ExtraLightItalic.otf"
-"InputMonoCondensed Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30525.otf"
-"InputMonoCondensed Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30523.otf"
+"InputMonoCondensed Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-Italic.otf"
+"InputMonoCondensed Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-Light.otf"
 "InputMonoCondensed LightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30522.otf"
 "InputMonoCondensed Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-Medium.otf"
 "InputMonoCondensed MediumIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-MediumItalic.otf"
 "InputMonoCondensed Thin (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-Thin.otf"
-"InputMonoCondensed ThinIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30518.otf"
-"InputMonoNarrow (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30538.otf"
+"InputMonoCondensed ThinIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoCondensed-ThinItalic.otf"
+"InputMonoNarrow (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-Regular.otf"
 "InputMonoNarrow Black (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-Black.otf"
 "InputMonoNarrow BlackIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-BlackItalic.otf"
-"InputMonoNarrow Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30542.otf"
+"InputMonoNarrow Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-Bold.otf"
 "InputMonoNarrow BoldIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-BoldItalic.otf"
 "InputMonoNarrow ExLight (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-ExtraLight.otf"
 "InputMonoNarrow ExLightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-ExtraLightItalic.otf"
 "InputMonoNarrow Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-Italic.otf"
 "InputMonoNarrow Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-Light.otf"
 "InputMonoNarrow LightIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30536.otf"
-"InputMonoNarrow Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.30541.otf"
+"InputMonoNarrow Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-Medium.otf"
 "InputMonoNarrow MediumIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-MediumItalic.otf"
 "InputMonoNarrow Thin (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-Thin.otf"
 "InputMonoNarrow ThinIta (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\InputMonoNarrow-ThinItalic.otf"
@@ -1436,7 +1419,6 @@ WINE REGISTRY Version 2
 "Jakob (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Jakob-Regular.otf"
 "Jakob Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.39826.otf"
 "Jakob Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Jakob-Light.otf"
-"JakobCTT (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\JakobCTT Regular-b246.otf"
 "Jaws Comic Pro JY (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Laffayette_Comic_Pro.ttf"
 "Jeff Script (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\JeffScript.otf"
 "Just tell me what (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Just tell me what regular (Version 2).otf"
@@ -1556,7 +1538,6 @@ WINE REGISTRY Version 2
 "Kremlin Pro (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\KremlinPro-Regular.otf"
 "Kremlin Pro Expanded Demi (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7315.otf"
 "Kremlin Pro Semi-Expanded (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.7313.otf"
-"Kremlin_nuovo Normal (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Kremlin_nuovo Normal-8eac.otf"
 "Krikikrak EDU Pen Black (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\KrikikrakEDUPen-Black.otf"
 "Krikikrak EDU Pen Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\KrikikrakEDUPen-Bold.otf"
 "Krikikrak EDU Pen Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\KrikikrakEDUPen-Light.otf"
@@ -1825,21 +1806,8 @@ WINE REGISTRY Version 2
 "PoplarStd (TrueType)"="Z:\\Library\\Fonts\\PoplarStd.otf"
 "Post Human (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\posthuman.ttf"
 "PrestigeEliteStd-Bd (TrueType)"="Z:\\Library\\Fonts\\PrestigeEliteStd-Bd.otf"
-"Proxima Nova (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.175.otf"
-"Proxima Nova Black (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.137.otf"
 "Proxima Nova Black It (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.138.otf"
-"Proxima Nova Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.139.otf"
 "Proxima Nova Bold It (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.140.otf"
-"Proxima Nova Extrabold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.169.otf"
-"Proxima Nova Extrabold It (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.170.otf"
-"Proxima Nova It (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.176.otf"
-"Proxima Nova Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.5474.otf"
-"Proxima Nova Light It (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.5475.otf"
-"Proxima Nova Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.25136.otf"
-"Proxima Nova Medium It (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.25137.otf"
-"Proxima Nova Semibold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.173.otf"
-"Proxima Nova Semibold It (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.174.otf"
-"Proxima Nova Thin (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.171.otf"
 "Proxima Nova Thin It (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.172.otf"
 "PT Mono (TrueType)"="Z:\\Library\\Fonts\\PTMono.ttc"
 "PT Mono Bold (TrueType)"="Z:\\Library\\Fonts\\PTMono.ttc"
@@ -2004,7 +1972,7 @@ WINE REGISTRY Version 2
 "SukhumvitSet-Thin (TrueType)"="Z:\\Library\\Fonts\\SukhumvitSet.ttc"
 "Sweet Mango (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Sweet Mango.otf"
 "SwingSet BB (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\SWINSBRG.TTF"
-"Symbol (TrueType)"="Z:\\Users\\christinel18\\Developer\\Github\\IceCreamCalculator-mac\\Ice Cream Calculator.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\symbol.ttf"
+"Symbol (TrueType)"="Z:\\Users\\christinel18\\Applications\\Wineskin\\Ice Cream Calculator.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\symbol.ttf"
 "TagirCTT (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\TagirCTT.ttf"
 "Tahoma (TrueType)"="Z:\\Library\\Fonts\\Tahoma.ttf"
 "Tahoma Bold (TrueType)"="Z:\\Library\\Fonts\\Tahoma Bold.ttf"
@@ -2061,19 +2029,19 @@ WINE REGISTRY Version 2
 "Tw Cen MT Bold (TrueType)"="Z:\\Library\\Fonts\\Microsoft\\Tw Cen MT Bold.ttf"
 "Tw Cen MT Bold Italic (TrueType)"="Z:\\Library\\Fonts\\Microsoft\\Tw Cen MT Bold Italic.ttf"
 "Tw Cen MT Italic (TrueType)"="Z:\\Library\\Fonts\\Microsoft\\Tw Cen MT Italic.ttf"
-"Uberhand Pro (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35641.otf"
-"Uberhand Pro Black (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35646.otf"
-"Uberhand Pro Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35644.otf"
+"Uberhand Pro (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandPro.otf"
+"Uberhand Pro Black (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandPro-Black.otf"
+"Uberhand Pro Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandPro-Bold.otf"
 "Uberhand Pro Book (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35642.otf"
-"Uberhand Pro Extlight (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35639.otf"
-"Uberhand Pro Extrabold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35645.otf"
-"Uberhand Pro Hairline (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35636.otf"
-"Uberhand Pro Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35640.otf"
+"Uberhand Pro Extlight (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandPro-Extlight.otf"
+"Uberhand Pro Extrabold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandPro-Extrabold.otf"
+"Uberhand Pro Hairline (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandPro-Hairline.otf"
+"Uberhand Pro Light (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandPro-Light.otf"
 "Uberhand Pro Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35643.otf"
-"Uberhand Pro Thin (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35637.otf"
-"Uberhand Pro Ultralight (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35638.otf"
+"Uberhand Pro Thin (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandPro-Thin.otf"
+"Uberhand Pro Ultralight (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandPro-Ultralight.otf"
 "Uberhand Text Pro (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35647.otf"
-"Uberhand Text Pro Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35648.otf"
+"Uberhand Text Pro Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UberhandTextPro-Bold.otf"
 "UberhandUI (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.35649.otf"
 "UhBee dami (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UhBee dami.ttf"
 "UhBee dami Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UhBee dami Bold.ttf"
@@ -2081,7 +2049,7 @@ WINE REGISTRY Version 2
 "ULTRABRUSH (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Ultra Brush Demo.ttf"
 "Umberto (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\umberto.ttf"
 "UniSansHeavyCAPS (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Uni Sans Heavy.otf"
-"UppercutAngle (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\CoreSync\\plugins\\livetype\\.r\\.16501.otf"
+"UppercutAngle (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\UppercutAngle.otf"
 "VenatorDemo (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\Venator Demo.ttf"
 "Verdana (TrueType)"="Z:\\Library\\Fonts\\Microsoft\\Verdana.ttf"
 "Verdana Bold (TrueType)"="Z:\\Library\\Fonts\\Microsoft\\Verdana Bold.ttf"
@@ -2105,10 +2073,6 @@ WINE REGISTRY Version 2
 "Whiz Bang Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCWhiz Bang Bold.ttf"
 "Whiz Bang Roman (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCWhiz Bang Roman.ttf"
 "Wild And Crazy Medium (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\CCWild And Crazy Medium.ttf"
-"Wild Words Bold Bold (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Wild Words Bold Bold-b0d5.otf"
-"Wild Words BoldItalic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Wild Words BoldItalic-4f29.otf"
-"Wild Words Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Wild Words Italic-c009.otf"
-"Wild Words Roman (TrueType)"="Z:\\Users\\christinel18\\Library\\Application Support\\Adobe\\.User Owned Fonts\\Wild Words Roman-0d1c.otf"
 "Wingdings (TrueType)"="Z:\\Library\\Fonts\\Microsoft\\Wingdings.ttf"
 "Wingdings 2 (TrueType)"="Z:\\Library\\Fonts\\Microsoft\\Wingdings 2.ttf"
 "Wingdings 3 (TrueType)"="Z:\\Library\\Fonts\\Microsoft\\Wingdings 3.ttf"
@@ -2161,8 +2125,8 @@ WINE REGISTRY Version 2
 "\x261eMangaMaster BB (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\MangaMaster BB.ttf"
 "\x261eMangaMaster BB Bold Italic (TrueType)"="Z:\\Users\\christinel18\\Library\\Fonts\\MangaMaster BB Bold Italic.ttf"
 
-[Software\\Wine\\Fonts\\Replacements] 1652099009
-#time=1d8639f972beac0
+[Software\\Wine\\Fonts\\Replacements] 1654478319
+#time=1d879435a6f0b9e
 "Gulim"="NanumGothic"
 "MS UI Gothic"="Ume UI Gothic"
 "PMingLiU"="STSong"
@@ -2170,8 +2134,12 @@ WINE REGISTRY Version 2
 
  
 
+[Software\\Wine\\Drivers]
+"Graphics"="mac,x11"
+
 [Control Panel\\Desktop]
-#time=1d8639f8da7b74a
+"LogPixels"=dword:00000060
+#time=1d879436cbfbbc2
 "ActiveWndTrackTimeout"=dword:00000000
 "BlockSendInputResets"="0"
 "CaretWidth"=dword:00000001
@@ -2190,7 +2158,6 @@ WINE REGISTRY Version 2
 "ForegroundFlashCount"=dword:00000003
 "ForegroundLockTimeout"=dword:00000000
 "IconTitleWrap"="1"
-"LogPixels"=dword:00000060
 "LowPowerActive"="0"
 "MenuShowDelay"="400"
 "UserPreferencesMask"=hex:30,00,00,80,12,00,00,00
@@ -2201,9 +2168,9 @@ WINE REGISTRY Version 2
 
 
 [Software\\Wine\\Mac Driver]
-#time=1d8639fad4268d4
+"RetinaMode"="N"
+#time=1d879436cbfc626
 "LeftCommandIsCtrl"="Y"
 "LeftOptionIsAlt"="Y"
-"RetinaMode"="N"
 "RightCommandIsCtrl"="Y"
 "RightOptionIsAlt"="Y"
