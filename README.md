@@ -17,3 +17,7 @@ You can now uncompress the file.
 Right-click on "Ice Cream Calculator.app" and select "Show Package Contents".
 Open "Wineskin.app", then click "Advanced". From there, click "Tools" and select "Refresh Wrapper".
 Once this is done, close Wineskin. You should be able to run Ice Cream Calculator now.
+
+#### If you are unable to open Wineskin (exec[number].bat error) ####
+Check to see if the Wineskin app has a quarantine flag on it, and remove it.
+
