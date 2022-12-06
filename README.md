@@ -21,3 +21,5 @@ Once this is done, close Wineskin. You should be able to run Ice Cream Calculato
 #### If you are unable to open Wineskin (exec[number].bat error) ####
 Check to see if the Wineskin app has a quarantine flag on it, and remove it.
 
+## If the wrapper is broken or outdated ##
+Please use the blank wrapper [here.](https://github.com/contextnerror/ICC-Mac/releases/tag/backup)
