@@ -26,3 +26,10 @@ The error should include a file path. Go to drive_c in the app bundle and create
 
 ## If the wrapper is broken or outdated ##
 Please use the blank wrapper [here.](https://github.com/contextnerror/ICC-Mac/releases/tag/backup)
+
+## If all else fails ##
+Due to my limited ability to test the program in different environments, there may be times when issues arise that I either cannot reproduce or don't know how to solve. In that case some of these other options may still work:
+
+- Installing ICC using [Crossover](https://www.codeweavers.com/crossover)
+- Installing [Wineskin](https://github.com/Gcenx/WineskinServer) yourself and creating your own bundle
+- Using a packaged build of [Wine](https://github.com/Gcenx/macOS_Wine_builds)
