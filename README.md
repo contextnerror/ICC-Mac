@@ -1,35 +1,40 @@
-# How to Install #
 
-Download the version of the app you want from the [releases page.](https://github.com/contextnerror/ICC-Mac/releases)
+# How to run Ice Cream Calculator on a Mac using Wine #
 
-Before you open the archive, you will need to strip the quarantine flag from it. Otherwise, macOS will incorrectly claim the app is broken. There are two ways to do this step.
+Previously I have provided pre-made apps for this. However, they have become increasingly unreliable. As such I will instead provide instructions for how to do it yourself. The exact instructions depend on your version of macOS.
 
-#### Using an app ####
-You will need xattred. [Download xattred here.](https://eclecticlight.co/xattred-sandstrip-xattr-tools/)
-Open "ICC-(version number).tgz" in xattred. In the list of flags, you should see "com.apple.quarantine". Click it, then click "Strip flag". You can now uncompress the file. 
+## For 10.15 and newer ##
 
-#### Using Terminal ####
-This isn't recommended unless you're familiar with the command line.
-Enter this command in Terminal: `xattr -d com.apple.quarantine /path/to/.tgz`
-You can now uncompress the file. 
+### Setting up Wineskin Winery ###
 
-### Configuring Wine ###
-Right-click on "Ice Cream Calculator.app" and select "Show Package Contents".
-Open "Wineskin.app", then click "Advanced". From there, click "Tools" and select "Refresh Wrapper".
-Once this is done, close Wineskin. You should be able to run Ice Cream Calculator now.
+Install Wineskin from here: https://github.com/Gcenx/WineskinServer
 
-#### If you are unable to open Wineskin (exec[number].bat error) ####
-Check to see if the Wineskin app has a quarantine flag on it, and remove it.
+You should now have an app called Wineskin Winery. Open it.
 
-#### To remove the "Error creating backup" message ####
-The error should include a file path. Go to drive_c in the app bundle and create the folders of the file path.
+Click the + button next to New Engine(s) available! and pick the newest standard engine from the dropdown. This is the one with the highest number, but without "D3DMetal" or "wip" in the name. Click download and ok.
 
-## If the wrapper is broken or outdated ##
-Please use the blank wrapper [here.](https://github.com/contextnerror/ICC-Mac/releases/tag/backup)
+If there is a notice saying Wrapper Version has an update, update it
 
-## If all else fails ##
-Due to my limited ability to test the program in different environments, there may be times when issues arise that I either cannot reproduce or don't know how to solve. In that case some of these other options may still work:
+### Setting up the wrapper ###
 
-- Installing ICC using [Crossover](https://www.codeweavers.com/crossover)
-- Installing [Wineskin](https://github.com/Gcenx/WineskinServer) yourself and creating your own bundle
-- Using a packaged build of [Wine](https://github.com/Gcenx/macOS_Wine_builds)
+Click Create New Blank Wrapper. Pick the name that you want the app to show as. Avoid special characters or spaces. Wait for the wrapper to generate, this will take a while.  
+
+Once it has been generated, click the option to view it in Finder. In Finder, right-click the wrapper and Show Package Contents. Open the Wineskin app inside. You can now close the Winery app.
+
+In Wineskin, click Advanced and go to the Advanced tab. Make sure that "Disable Mono Installation" is NOT checked. If it is, uncheck it, then go to the Tools tab and hit "Refresh Wrapper" and "Rebuild Wrapper", in that order.  
+
+Regardless of what you did in the last step, go to the Tools tab and click Config Utility (winecfg). In the new window, go to the Applications tab. Click Default Settings in the list, then under Windows Version select "Windows 10" from the dropdown. Click Apply then OK.   
+
+Wait for the "a tool is running" indicator to go away.  
+
+### Installing ICC ###
+
+Keep Wineskin open and go to Ice Cream Calc's official download site in your browser. Download the latest version and unzip it.
+
+Back to Wineskin, click Install Software. Click Choose Setup Executable and pick the IceCreamCalculatorSetup.exe file from your downloads. In the installer that opens, DO NOT change the default install location. Un-check the option to create a desktop shortcut. Un-check the option to open the application and click finish.
+
+Wineskin will ask you to choose an executable. Pick IceCreamCalculator.exe from the dropdown.
+
+### Cosmetic changes ###
+
+Under the Configuration tab, change the Version field to whatever version of ICC you're using. If you want to change the icon, click browse and select an image file. You can download the .icns file from this repository and use it as the icon if you would like the default ice cream cone icon.
