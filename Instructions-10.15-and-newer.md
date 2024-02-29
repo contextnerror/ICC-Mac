@@ -38,6 +38,7 @@ Under the Configuration tab, change the Version field to whatever version of ICC
 
 ## Configuring ICC ##
 These steps are now obsolete with ICC version 4. They are kept for historical reference but do not need to be done.
+
 ~~Open the ICC application and go to settings. Check "Place data folder with executable". Save and exit settings, then exit ICC.~~
 
 ~~Go back to Finder and Show Package Contents. Navigate to `drive_c > ProgramData > Ice Cream Calculator`. There should be Sorbet, Gelato and Ice Cream .chart files. Take these files and move them to `drive_c > ProgramFiles (x86) > Ice cream calculator > Data`.~~
