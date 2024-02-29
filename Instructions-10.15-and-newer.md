@@ -37,9 +37,9 @@ Wineskin will ask you to choose an executable. Pick IceCreamCalculator.exe from 
 Under the Configuration tab, change the Version field to whatever version of ICC you're using. If you want to change the icon, click browse and select an image file. You can download the .icns file from this repository and use it as the icon if you would like the default ice cream cone icon.
 
 ## Configuring ICC ##
+These steps are now obsolete with ICC version 4. They are kept for historical reference but do not need to be done.
+~~Open the ICC application and go to settings. Check "Place data folder with executable". Save and exit settings, then exit ICC.~~
 
-Open the ICC application and go to settings. Check "Place data folder with executable". Save and exit settings, then exit ICC.
+~~Go back to Finder and Show Package Contents. Navigate to `drive_c > ProgramData > Ice Cream Calculator`. There should be Sorbet, Gelato and Ice Cream .chart files. Take these files and move them to `drive_c > ProgramFiles (x86) > Ice cream calculator > Data`.~~
 
-Go back to Finder and Show Package Contents. Navigate to `drive_c > ProgramData > Ice Cream Calculator`. There should be Sorbet, Gelato and Ice Cream .chart files. Take these files and move them to `drive_c > ProgramFiles (x86) > Ice cream calculator > Data`.
-
-You should now be ready to go.
+~~You should now be ready to go.~~
