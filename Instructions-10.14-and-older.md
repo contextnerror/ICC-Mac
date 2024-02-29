@@ -105,18 +105,19 @@ Now that you have a wineprefix, you can download ICC. Go to the official website
 
 ## Configuring ICC ##
 
-Run ICC by entering this in terminal: `wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Ice\ cream\ calculator/IceCreamCalculator.exe`. There will be some fixme: messages, this is fine.
+Run ICC by entering this in terminal: `wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Ice\ cream\ calculator\ 4/IceCreamCalculator.exe 
+`. There will be some fixme: messages, this is fine.
 
-Under settings, check "Place data folder with executable". Save and exit settings, then exit ICC.
+~~Under settings, check "Place data folder with executable". Save and exit settings, then exit ICC.~~ This step is outdated for ICC 4.0
 
-In terminal, enter `cd ~/.wine/drive_c/ProgramData/Ice\ Cream\ Calculator`. Then enter `mv *.chart ~/.wine/drive_c/Program\ Files\ \(x86\)/Ice\ cream\ calculator/Data`. This moves the default chart files into the new data folder.
+~~In terminal, enter `cd ~/.wine/drive_c/ProgramData/Ice\ Cream\ Calculator`. Then enter `mv *.chart ~/.wine/drive_c/Program\ Files\ \(x86\)/Ice\ cream\ calculator/Data`. This moves the default chart files into the new data folder.~~ This step is outdated for ICC 4.0
 
-You should now be ready to go. To run ICC in the future open terminal and enter `wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Ice\ cream\ calculator/IceCreamCalculator.exe`.
+You should now be ready to go. To run ICC in the future open terminal and enter `wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Ice\ cream\ calculator\ 4/IceCreamCalculator.exe`.
 
 ### Bonus: setting up a shortcut for ICC ###
 
 If you don't want to enter the entire command to ICC every time, you can make something called an alias. To do this, you add a line to your .bash_profile file.  
-For example, if I wanted the command "ICC" to run the program, I would add this line:`alias ICC='/opt/local/bin/wine /Users/(your username here)/.wine/drive_c/Program\ Files\ \(x86\)/Ice\ cream\ calculator/IceCreamCalculator.exe'`
+For example, if I wanted the command "ICC" to run the program, I would add this line:`alias ICC='/opt/local/bin/wine /Users/(your username here).wine/drive_c/Program\ Files\ \(x86\)/Ice\ cream\ calculator\ 4/IceCreamCalculator.exe'`
 
 You can also use something like [Automator](https://support.apple.com/guide/automator/welcome/mac/10.14) to run the program for you.
 
