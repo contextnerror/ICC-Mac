@@ -1,6 +1,8 @@
 
 # How to run Ice Cream Calculator on a Mac using Wine #
 
+## Update: Version 4.06 and newer of ICC require .NET 8 to run. I am working on updating the instructons to reflect this. In the meantime, these are not accurate. Please contact me if you need assistance in the meantime. ##
+
 Previously I have provided pre-made apps for this. However, they have become increasingly unreliable. As such I will instead provide instructions for how to do it yourself. The exact instructions depend on your version of macOS, please read the file with your macOS version in the title for specifics.
 
 If you already have downloaded a pre-made app before, there is no need to do anything. You can keep using it without any issue, unless it's broken.
